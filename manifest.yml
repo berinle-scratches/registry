@@ -1,0 +1,7 @@
+---
+applications:
+  - name: registry
+    memory: 1GB
+    path: build/libs/registry-0.0.1.jar
+    routes:
+      - route: registry-aae.apps.pcfone.io
